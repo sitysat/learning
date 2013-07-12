@@ -1,3 +1,5 @@
+// Copyright 2013 novitat.co.th All Rights Reserved. 
+
 #include<stdio.h>
 #include<stdlib.h>
 
