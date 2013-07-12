@@ -1,0 +1,27 @@
+########################################
+#	Using pdb to debugging python
+#	213/07/12
+
+Why?
+	- No IDE or other fancy tools
+	- Using someone else's computer
+	- Debugging some server-side code
+	
+How?
+	- import pdb
+	- pdb.set_trace()
+
+Basic command in pdb cmd
+H		| Help
+Q		| Quit
+P		| Print
+Pp		| Pretty print
+W		| Where ( + stack trace )
+L		| Print the surrounding source
+A		| Args for the current source
+N		| Next
+C		| Coninue until breakpoint
+S 		| Step inside
+B #		| Set breakpoint at line#
+! Xxxx	| Execute xxx in the context of the running program
+########################################
